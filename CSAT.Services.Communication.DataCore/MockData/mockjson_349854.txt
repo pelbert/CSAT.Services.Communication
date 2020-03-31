@@ -1,0 +1,1 @@
+[{"resultid":3074409,"resultid2":3074409,"Kitnum":"349854","matchkitnum":"349854","isYdnaMatch":false,"isMtdnaMatch":false,"isFamilyFinderMatch":false,"isXMatch":false,"yDnaHaplogroup":null,"mtDnaHaplogroup":null,"familyFinderRelationship":null,"topPopulations":[]}]

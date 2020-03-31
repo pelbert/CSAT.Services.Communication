@@ -1,0 +1,1 @@
+[{"resultid":394314,"resultid2":394314,"Kitnum":"N107435","matchkitnum":"N107435","isYdnaMatch":false,"isMtdnaMatch":false,"isFamilyFinderMatch":false,"isXMatch":false,"yDnaHaplogroup":"I-BY44445","mtDnaHaplogroup":"K2a11","familyFinderRelationship":null,"topPopulations":[{"name":"European","percentage":97.0,"regionColor":"#e41a1c"}]}]

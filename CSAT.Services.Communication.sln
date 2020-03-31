@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSAT.Services.Communication.Web.Core", "CSAT.Services.Communication.Web.Core\CSAT.Services.Communication.Web.Core.csproj", "{B7864870-DDDD-4534-8868-E095FB615C22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSAT.Services.Communication.DataCore", "CSAT.Services.Communication.DataCore\CSAT.Services.Communication.DataCore.csproj", "{6F5FF5B5-A4F3-4E1D-ADB4-DBBB80F15513}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSATServicesTests", "CSATServicesTests\CSATServicesTests.csproj", "{403A8337-B326-44BF-91DE-07F5E6579C50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSAT.Services.Communication.TestHost", "CSAT.Services.Communication.TestHost\CSAT.Services.Communication.TestHost.csproj", "{A9484E41-E2F4-46C1-9A41-60A3BE6A0217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationConsole", "MigrationConsole\MigrationConsole.csproj", "{B98BD37C-8801-4474-9057-E88757E66444}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7864870-DDDD-4534-8868-E095FB615C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7864870-DDDD-4534-8868-E095FB615C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7864870-DDDD-4534-8868-E095FB615C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7864870-DDDD-4534-8868-E095FB615C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F5FF5B5-A4F3-4E1D-ADB4-DBBB80F15513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5FF5B5-A4F3-4E1D-ADB4-DBBB80F15513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5FF5B5-A4F3-4E1D-ADB4-DBBB80F15513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5FF5B5-A4F3-4E1D-ADB4-DBBB80F15513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403A8337-B326-44BF-91DE-07F5E6579C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403A8337-B326-44BF-91DE-07F5E6579C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403A8337-B326-44BF-91DE-07F5E6579C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403A8337-B326-44BF-91DE-07F5E6579C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9484E41-E2F4-46C1-9A41-60A3BE6A0217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9484E41-E2F4-46C1-9A41-60A3BE6A0217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9484E41-E2F4-46C1-9A41-60A3BE6A0217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9484E41-E2F4-46C1-9A41-60A3BE6A0217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B98BD37C-8801-4474-9057-E88757E66444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98BD37C-8801-4474-9057-E88757E66444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98BD37C-8801-4474-9057-E88757E66444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98BD37C-8801-4474-9057-E88757E66444}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D92AB65-BF5D-4200-B144-40B3B452A650}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+version: '3'
+  
+services:
+  CSAT.Services.Communication.Web.Core:
+    image: staging
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${FT_Environment}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: CSATCommServices
+
+    
+    ports: 
+      - "2107:80"
+      - "1432:1433"
+
+     

@@ -1,0 +1,80 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ProfileService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="MockData\ffmockjson.txt" />
+    <None Remove="MockData\FFmockjson9.txt" />
+    <None Remove="MockData\FFmockjson_349854.txt" />
+    <None Remove="MockData\FFmockjson_843.txt" />
+    <None Remove="MockData\FFmockjson_9.txt" />
+    <None Remove="MockData\FFmockjson_N107435.txt" />
+    <None Remove="MockData\mockjson.txt" />
+    <None Remove="MockData\mockjsonMtDNA_349854.txt" />
+    <None Remove="MockData\mockjsonMtDNA_843.txt" />
+    <None Remove="MockData\mockjsonMtDNA_9.txt" />
+    <None Remove="MockData\mockjsonMtDNA_N107435.txt" />
+    <None Remove="MockData\mockjsonYDNA_349854.txt" />
+    <None Remove="MockData\mockjsonYDNA_843.txt" />
+    <None Remove="MockData\mockjsonYDNA_9.txt" />
+    <None Remove="MockData\mockjsonYDNA_N107435.txt" />
+    <None Remove="MockData\mockjson_349854.txt" />
+    <None Remove="MockData\mockjson_843.txt" />
+    <None Remove="MockData\mockjson_9.txt" />
+    <None Remove="MockData\mockjson_N107435.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="MockData\ffmockjson.txt" />
+    <EmbeddedResource Include="MockData\FFmockjson9.txt" />
+    <EmbeddedResource Include="MockData\FFmockjson_349854.txt" />
+    <EmbeddedResource Include="MockData\FFmockjson_843.txt" />
+    <EmbeddedResource Include="MockData\FFmockjson_9.txt" />
+    <EmbeddedResource Include="MockData\FFmockjson_N107435.txt" />
+    <EmbeddedResource Include="MockData\mockjson.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MockData\mockjsonMtDNA_349854.txt" />
+    <EmbeddedResource Include="MockData\mockjsonMtDNA_843.txt" />
+    <EmbeddedResource Include="MockData\mockjsonMtDNA_9.txt" />
+    <EmbeddedResource Include="MockData\mockjsonMtDNA_N107435.txt" />
+    <EmbeddedResource Include="MockData\mockjsonYDNA_349854.txt" />
+    <EmbeddedResource Include="MockData\mockjsonYDNA_843.txt" />
+    <EmbeddedResource Include="MockData\mockjsonYDNA_9.txt" />
+    <EmbeddedResource Include="MockData\mockjsonYDNA_N107435.txt" />
+    <EmbeddedResource Include="MockData\mockjson_349854.txt" />
+    <EmbeddedResource Include="MockData\mockjson_843.txt" />
+    <EmbeddedResource Include="MockData\mockjson_9.txt" />
+    <EmbeddedResource Include="MockData\mockjson_N107435.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BouncyCastle" Version="1.8.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.1.0-preview1-final" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0-preview1-final" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.4.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.5.0-preview1-26216-02" />
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.5.0-rc1-26502-06" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.entityframeworkcore\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Configuration.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Security\" />
+  </ItemGroup>
+
+</Project>
