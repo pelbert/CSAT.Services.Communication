@@ -1,1 +1,0 @@
-& .\MigrationConsole.exe | Write-Host
