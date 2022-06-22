@@ -58,7 +58,7 @@
     <PackageReference Include="BouncyCastle" Version="1.8.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.1.0-preview1-final" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0-preview1-final" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.4.1" />
     <PackageReference Include="System.Data.SqlClient" Version="4.5.0-preview1-26216-02" />
     <PackageReference Include="System.ServiceModel.Primitives" Version="4.5.0-rc1-26502-06" />
